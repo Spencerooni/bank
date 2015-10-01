@@ -2,7 +2,8 @@ output
 
 1. create account
 2. list accounts
-3. exit
+3. account management
+4. exit
 
 if 1
 required information is
@@ -19,4 +20,12 @@ list accounts in the format:
 <account number> (<account type>) - <first name> <last name> - £<balance>
 
 if 3
+prompt for bank account number
+if bank account number found, display the following options:
+1. deposit
+2. withdraw
+
+if bank account not found, output a message that the account number was not found and return to the main menu
+
+if 4
 system.exit
