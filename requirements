@@ -1,0 +1,17 @@
+output
+
+1. create account
+2. exit
+
+if 1
+required information is
+- first name
+- last name
+- type of account (standard, saver, premium)
+optional information is
+- initial savings to deposit
+
+every bank account should be allowed an overdraft based on account type (standard = 500, saver = 0, premium = 3000)
+
+if 2
+system.exit
