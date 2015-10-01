@@ -25,6 +25,12 @@ if bank account number found, display the following options:
 1. deposit
 2. withdraw
 
+	- if deposit is selected, enter an amount to deposit, this should add onto the savings amount for that bank account
+	- if withdrawal is selected, enter an amount to withdraw. Rules around widthdrawals:
+		- withdrawls from savings accounts should deduct an extra £1 per transaction
+		- amount to withdraw must be within the accounts threshold, given current balance and allowed overdraft
+		- withdrawal amount max at any one time is 10,000
+
 if bank account not found, output a message that the account number was not found and return to the main menu
 
 if 4
