@@ -1,7 +1,8 @@
 output
 
 1. create account
-2. exit
+2. list accounts
+3. exit
 
 if 1
 required information is
@@ -14,4 +15,8 @@ optional information is
 every bank account should be allowed an overdraft based on account type (standard = 500, saver = 0, premium = 3000)
 
 if 2
+list accounts in the format:
+<account number> (<account type>) - <first name> <last name> - £<balance>
+
+if 3
 system.exit
